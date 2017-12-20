@@ -1,0 +1,136 @@
+/* Copyright 2017 Ahmed Akhtar Jquery Crystal Collector Game*/
+
+/*Theme music for Game */
+
+#thememusic {
+
+
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* Pause and Play buttons for the theme Music */
+
+.btn {
+
+	color: purple;
+	font-weight: bolder;
+	border: solid 2px purple;
+}
+
+/* Crystal Collectors Heading/Navbar */
+
+#header {
+
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	color: purple;
+	background-color: lightgreen;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	font-family: Impact;
+}
+
+/* Game Buttons*/
+
+#buttonscrystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.imagecrystal {
+	height: 100px;
+	border: solid 3px pink;
+	margin-left: 10px
+}
+
+/* Game Instructions */
+
+#rulestoplay {
+	margin-left: 30px;
+	background-color: lightgray;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 3px purple;
+	font-family: Courier New, Times, Impact;
+	max-width: 400px;
+	font-size: 14px;
+}
+
+/* Current Score Box*/
+
+#totalScore {
+	margin-left: 90px;
+	margin-bottom: 50px;
+
+	}
+
+#total {
+	
+	padding: 25px;
+	display: inline;
+	background: lightblue;
+	border: solid 3px purple
+
+}
+
+/* # of Wins and Losses Box*/
+
+#scorelog {
+	background-color: pink;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	margin-right: 0px;
+	border: solid 3px purple
+
+}
+
+/* Number to Match Box*/
+
+#numbertomatch {
+	margin-left: 50px;
+	margin-right: 15px;
+	background-color: orange;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	border: solid 3px purple
+}
+
+/* Wrapper around Body*/
+
+#wrapper {
+	width: 100%
+
+	margin: 0 auto;
+}
+
+
+/* CSS For Tags */
+
+
+h1{
+	background-color: white;
+	color: red;
+	display:inline;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 4px pink;
+}
+
+h3{
+	color: black;
+
+}
+
+body {
+	background-image: url("../images/backgroundimage.jpg");
+}

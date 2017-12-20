@@ -1,0 +1,88 @@
+<!--Copyright 2017 Ahmed Akhtar-->
+<!--//Jquery Crystal Collector Game-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Crystal Collectors</title>
+
+
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+<!-- Javascript -->
+<script type="text/javascript" src="assets/javascript/crystalcollectors.js"></script>
+
+	<title>Crystal Collectors</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+
+<!-- Wrapper: Div Around Body............................................ -->
+
+<div id = "wrapper">
+
+
+
+<!--Heading-->
+<div id="header">Crystal Collectors!</div>
+
+
+<!-- Theme Music Div -->
+
+	<div id="thememusic">
+        <button class="btn btn-warning btn theme-button"><span class="glyphicon glyphicon-music"></span> Play Theme!</button>
+        <button class="btn btn-default btn pause-button"><span class="glyphicon glyphicon-pause"></span> Pause Song</button>
+      </div>
+
+
+<!-- Instructions to Play Div -->
+
+	<div id="rulestoplay">
+		<li> You have to add up points exactly to a random number given to you at the start of the game.</li>
+		<li> Four crystals can be clicked to accumulate points. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+		<li> You win the game by matching your total score to the exact number to Guess </li>
+		<li> The values of the crytslas will be random everytime the game resets..</li>
+	</div>
+
+<!-- Crystals Buttons Div -->
+
+	<div id="buttonscrystals"></div>
+
+<!-- Container Div (Inside Wrapper) -->	
+
+	<div class = "container">
+
+
+<!-- Number to Match Box Div -->
+
+		<div id="numbertomatch">
+
+			<h2>Number to Match= <span class="totaltomatch"></span></h2> 	
+		</div>
+
+<!-- Total Score Box Div -->
+
+		<div id="scorelog">
+			<h3><span id="progress"></span></h3>
+			<h3>Losses: <span id="losses"></span> </h3>
+			<h3>Wins: <span id="winnings"></span></h3>
+		</div>
+	</div>
+
+<!-- Total Score Box Div -->
+
+	<div id ="totalScore">
+		<h3 id = "total">Current Score= <span id ="currentscore">0</span></h3>
+		
+	</div>
+</div>
+</body>
+
+
+</html>
