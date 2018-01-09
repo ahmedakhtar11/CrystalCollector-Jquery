@@ -8,11 +8,11 @@ $(document).ready(function() {
 
 	  	// Audio for Theme Song
       var audioElement = document.createElement("audio");
-      audioElement.setAttribute("src", "Assets/avemaria.mp3");
+      audioElement.setAttribute("src", "assets/avemaria.mp3");
 
       	// Sound Effects for Crystal Buttons
       var audioElement2 = document.createElement("audio");
-      audioElement2.setAttribute("src", "Assets/lasersoundeffect.mp3");
+      audioElement2.setAttribute("src", "assets/lasersoundeffect.mp3");
 
       // Theme Music Play Button
       $(".theme-button").on("click", function() {
